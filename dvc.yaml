@@ -1,12 +1,4 @@
 stages:
-  valid:
-    cmd: ./darknet detector valid ../config/traffic.data ../config/traffic.cfg ../test.weights
-      -dont_show
-    wdir: darknet
-    deps:
-    - ../config/traffic.cfg
-    - ../config/traffic.data
-    - ../test.weights
   res-convert:
     cmd: python result2json.py
     deps:
