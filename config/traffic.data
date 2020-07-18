@@ -1,6 +1,6 @@
 classes= 3
 train  = /train.txt
-valid  = /home/ty2417/test.txt
+valid  = /home/ty2417/testfiles/test_HIKL2D200326T170529_3_0458_0628_calibrated.mp4.txt
 names = /home/ty2417/config/traffic.names
 backup = /backup/traffic_visdrone/
 
