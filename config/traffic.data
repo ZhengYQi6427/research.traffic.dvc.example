@@ -1,0 +1,6 @@
+classes= 4
+train  = /train.txt
+valid  = /test.txt
+names = /traffic.names
+backup = /backup/traffic_visdrone/
+
