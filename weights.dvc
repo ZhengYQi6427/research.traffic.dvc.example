@@ -1,0 +1,3 @@
+outs:
+- md5: 16157a8933a318b13fdf23f6c0806b37.dir
+  path: weights
