@@ -1,6 +1,6 @@
-classes= 4
+classes= 3
 train  = /train.txt
-valid  = /test.txt
-names = /traffic.names
+valid  = /home/ty2417/test.txt
+names = /home/ty2417/config/traffic.names
 backup = /backup/traffic_visdrone/
 
