@@ -12,3 +12,13 @@ stages:
     - result_in_json/res_for_eval.json
     metrics:
     - metrics.json
+  validation:
+    cmd: ./darknet detector valid ../config/traffic.data ../config/traffic.cfg ../test.weights
+      -dont_show
+    wdir: darknet
+    deps:
+    - ../config/traffic.cfg
+    - ../config/traffic.data
+    - ../test.weights
+    outs:
+    - results
