@@ -1,3 +1,4 @@
 /weights
 /weights/*
 /result_in_json
+/metrics.json

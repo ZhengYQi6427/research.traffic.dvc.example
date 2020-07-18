@@ -16,3 +16,9 @@ stages:
     - darknet/results
     outs:
     - result_in_json
+  evaluation:
+    cmd: python evaluation.py
+    deps:
+    - result_in_json/res_for_eval.json
+    metrics:
+    - metrics.json
