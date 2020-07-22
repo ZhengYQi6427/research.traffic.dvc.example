@@ -21,4 +21,5 @@ stages:
     - ../config/traffic.data
     - ../test.weights
     outs:
-    - results
+    - results:
+        persist: true
